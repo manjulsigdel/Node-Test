@@ -8,3 +8,4 @@ playground
 config/env/local.js
 config/env/*/*.js
 package-lock.json
+public
