@@ -92,6 +92,8 @@ const initGlobalConfigFiles = function (config, assets) {
   // Setting Globbed route files
   config.files.server.routes = getGlobbedPaths(assets.server.routes);
 
+  // Setting Globbed test files
+  config.files.server.tests = getGlobbedPaths(assets.server.tests);
 
   // Setting Globbed config files
   config.files.server.configs = getGlobbedPaths(assets.server.config);
